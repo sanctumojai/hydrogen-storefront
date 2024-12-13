@@ -1,0 +1,89 @@
+.
+├── ./.github/
+│   └── ./.github/workflows
+├── ./.shopify/
+│   └── ./.shopify/project.json
+├── ./app/
+│   ├── ./app/assets/
+│   │   └── ./app/assets/favicon.svg
+│   ├── ./app/components/
+│   │   ├── ./app/components/AddToCartButton.jsx
+│   │   ├── ./app/components/Aside.jsx
+│   │   ├── ./app/components/CartLineItem.jsx
+│   │   ├── ./app/components/CartMain.jsx
+│   │   ├── ./app/components/CartSummary.jsx
+│   │   ├── ./app/components/Footer.jsx
+│   │   ├── ./app/components/Header.jsx
+│   │   ├── ./app/components/PageLayout.jsx
+│   │   ├── ./app/components/PaginatedResourcesSection.jsx
+│   │   ├── ./app/components/ProductForm.jsx
+│   │   ├── ./app/components/ProductImage.jsx
+│   │   ├── ./app/components/ProductPrice.jsx
+│   │   ├── ./app/components/SearchForm.jsx
+│   │   ├── ./app/components/SearchFormPredictive.jsx
+│   │   ├── ./app/components/SearchResult.jsx
+│   │   └── ./app/components/SearchResultsPredictive.jsx
+│   ├── ./app/graphql/
+│   │   └── ./app/graphql/customer-account/
+│   │       ├── ./app/graphql/customer-account/CustomerAddressMutations.js
+│   │       ├── ./app/graphql/customer-account/CusomerDetailsQuery.js
+│   │       ├── ./app/graphql/customer-account/CustomerOrderQuery.js
+│   │       ├── ./app/graphql/customer-account/CustomerOrdersQuery.js
+│   │       └── ./app/graphql/customer-account/CustomerUpdateMutation.js
+│   ├── ./app/lib/
+│   │   ├── ./app/lib/context.js
+│   │   ├── ./app/lib/fragments.js
+│   │   ├── ./app/lib/search.js
+│   │   ├── ./app/lib/session.js
+│   │   └── ./app/lib/variants.js
+│   ├── ./app/routes/
+│   │   ├── ./app/routes/_index.jsx
+│   │   ├── ./app/routes/[robots.txt].jsx
+│   │   ├── ./app/routes/[sitemap.xml].jsx
+│   │   ├── ./app/routes/$.jsx
+│   │   ├── ./app/routes/account_.authorize.jsx
+│   │   ├── ./app/routes/account_.login.jsx
+│   │   ├── ./app/routes/account_.logout.jsx
+│   │   ├── ./app/routes/account._index.jsx
+│   │   ├── ./app/routes/account.$.jsx
+│   │   ├── ./app/routes/account.addresses.jsx
+│   │   ├── ./app/routes/account,jsx
+│   │   ├── ./app/routes/account.orders._index.jsx
+│   │   ├── ./app/routes/account.orders.$id.jsx
+│   │   ├── ./app/routes/account.profile.jsx
+│   │   ├── ./app/routes/blogs._index.jsx
+│   │   ├── ./app/routes/blogs.$blogHandle._index.jsx
+│   │   ├── ./app/routes/blogs.$blogHandle.$articleHandle.jsx
+│   │   ├── ./app/routes/cart.$lines.jsx
+│   │   ├── ./app/routes/cart.jsx
+│   │   ├── ./app/routes/collectins._index.jsx
+│   │   ├── ./app/routes/collections.$handle.jsx
+│   │   ├── ./app/routes/collections.all.jsx
+│   │   ├── ./app/routes/discount.$code.jsx
+│   │   ├── ./app/routes/pages.$handle.jsx
+│   │   ├── ./app/routes/policies._index.jsx
+│   │   ├── ./app/routes/policies.$handle.jsx
+│   │   ├── ./app/routes/products.$handle.jsx
+│   │   ├── ./app/routes/search.jsx
+│   │   └── ./app/routes/sitemap.$type.$page[.xml].jsx
+│   ├── ./app/styles/
+│   │   ├── ./app/styles/app.css
+│   │   ├── ./app/styles/reset.css
+│   │   └── ./app/styles/tailwind.css
+│   ├── ./app/entry.client.jsx
+│   ├── ./app/entry.server.jsx
+│   └── ./app/root.jsx
+├── ./dist/
+│   ├── ./dist/client
+│   └── ./dist/server
+├── ./guides
+├── ./node_modules
+├── ./public
+├── ./.env
+├── ./.graphqlrc.js
+├── ./customer-accountapi.generated.d.ts
+├── ./end.d.ts
+├── ./jsonconfig.json
+├── ./server.js
+├── ./storefrontapi.generated.d.ts
+└── ./vite.config.js
