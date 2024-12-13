@@ -1,0 +1,113 @@
+.
+├── .github/
+│   └── workflows
+├── .shopify/
+│   └── project.json
+├── app/
+│   ├── assets/
+│   │   ├── favicon.svg
+│   │   └── file_tree.txt
+│   ├── components/
+│   │   ├── AddToCartButton.jsx
+│   │   ├── Aside.jsx
+│   │   ├── CartLineItem.jsx
+│   │   ├── CartMain.jsx
+│   │   ├── CartSummary.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header_old.jsx
+│   │   ├── Header.jsx
+│   │   ├── PageLayout.jsx
+│   │   ├── PaginatedResourcesSection.jsx
+│   │   ├── ProductForm.jsx
+│   │   ├── ProductImage.jsx
+│   │   ├── ProductPrice.jsx
+│   │   ├── SearchForm.jsx
+│   │   ├── SearchFormPredictive.jsx
+│   │   ├── SearchResult.jsx
+│   │   └── SearchResultsPredictive.jsx
+│   ├── graphql/
+│   │   ├── customer-account/
+│   │   │   ├── CustomerAddressMutations.js
+│   │   │   ├── CusomerDetailsQuery.js
+│   │   │   ├── CustomerOrderQuery.js
+│   │   │   ├── CustomerOrdersQuery.js
+│   │   │   └── CustomerUpdateMutation.js
+│   ├── lib/
+│   │   ├── context.js
+│   │   ├── fragments.js
+│   │   ├── search.js
+│   │   ├── session.js
+│   │   └── variants.js
+│   ├── routes/
+│   │   ├── _index.jsx
+│   │   ├── [robots.txt].jsx
+│   │   ├── [sitemap.xml].jsx
+│   │   ├── $.jsx
+│   │   ├── account_.authorize.jsx
+│   │   ├── account_.login.jsx
+│   │   ├── account_.logout.jsx
+│   │   ├── account._index.jsx
+│   │   ├── account.$.jsx
+│   │   ├── account.addresses.jsx
+│   │   ├── account,jsx
+│   │   ├── account.orders._index.jsx
+│   │   ├── account.orders.$id.jsx
+│   │   ├── account.profile.jsx
+│   │   ├── blogs._index.jsx
+│   │   ├── blogs.$blogHandle._index.jsx
+│   │   ├── blogs.$blogHandle.$articleHandle.jsx
+│   │   ├── cart.$lines.jsx
+│   │   ├── cart.jsx
+│   │   ├── collectins._index.jsx
+│   │   ├── collections.$handle.jsx
+│   │   ├── collections.all.jsx
+│   │   ├── discount.$code.jsx
+│   │   ├── pages.$handle.jsx
+│   │   ├── policies._index.jsx
+│   │   ├── policies.$handle.jsx
+│   │   ├── products.$handle.jsx
+│   │   ├── search.jsx
+│   │   └── sitemap.$type.$page[.xml].jsx
+│   ├── styles/
+│   │   ├── app.css
+│   │   ├── reset.css
+│   │   └── tailwind.css
+│   ├── entry.client.jsx
+│   ├── entry.server.jsx
+│   └── root.jsx
+├── dist/
+│   ├── client/
+│   │   ├── assets
+│   │   ├── .gitkeep
+│   │   └── oxygen.json
+│   └── server/
+│       ├── index.js
+│       ├── index.js.map
+│       ├── metafile.server.json
+│       ├── oxygen.json
+│       └── server-bundle-analyzer.html
+├── guides/
+│   ├── predictiveSearch/
+│   │   ├── predictiveSearch.jpg
+│   │   └── predictiveSearch.md
+│   └── search/
+│       ├── search.jpg
+│       └── search.md
+├── node_modules
+├── public/
+│   └── .gitkeep
+├── .env
+├── .eslintignore
+├── .eslint.cjs
+├── .gitignore
+├── .graphqlrc.js
+├── CHANGELOG.md
+├── customer-accountapi.generated.d.ts
+├── end.d.ts
+├── jsonconfig.json
+├── package-lock.json
+├── package.json
+├── README.md
+├── server.js
+├── storefrontapi.generated.d.ts
+└── vite.config.js
