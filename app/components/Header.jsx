@@ -8,10 +8,22 @@ import {useAside} from '~/components/Aside';
  */
 export function Header({header, isLoggedIn, cart, publicStoreDomain}) {
   const {shop, menu} = header;
+
+  //access brand logo URL from loaded header data
+  const logoUrl = shop?.brand?.logo?.image?.url;
+
   return (
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-        <strong>{shop.name}</strong>
+        {logoUrl ? (
+          <img
+            src={logoUrl}
+            alt={shop.name || 'Store Logo'}
+            className="max-h-16 w-auto" // Adjust sizing as needed
+          />
+        ) : (
+          <strong>{shop.name}</strong>
+        )}
       </NavLink>
       <HeaderMenu
         menu={menu}
