@@ -136,6 +136,13 @@ button.reset {
   border: 0;
   background: inherit;
   font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
 }
 
 button.reset > * {
@@ -166,6 +173,19 @@ button.reset:hover:not(:has(> *)) {
   position: sticky;
   top: 0;
   z-index: 1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.7647058823529411rem;
+  font-style: normal;
+  line-height: 1.8em;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.header-logo {
+  max-height: 16;
+  width: auto;
 }
 
 .header-menu-mobile-toggle {
